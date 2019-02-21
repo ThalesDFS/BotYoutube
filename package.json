@@ -1,0 +1,19 @@
+{
+  "name": "botyoutube",
+  "version": "1.0.0",
+  "description": "Bot que cria vídeos para o youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasArusiewicz/BotYoutube.git"
+  },
+  "author": "LucasArusiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasArusiewicz/BotYoutube/issues"
+  },
+  "homepage": "https://github.com/LucasArusiewicz/BotYoutube#readme"
+}
