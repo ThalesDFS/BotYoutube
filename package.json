@@ -4,6 +4,7 @@
   "description": "Bot que cria vídeos para o youtube",
   "main": "src/index.js",
   "scripts": {
+    "start": "babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/LucasArusiewicz/BotYoutube#readme",
   "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "google-trends-api": "^4.9.0"
   }
 }
