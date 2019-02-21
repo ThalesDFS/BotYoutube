@@ -2,7 +2,7 @@
   "name": "botyoutube",
   "version": "1.0.0",
   "description": "Bot que cria vídeos para o youtube",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/LucasArusiewicz/BotYoutube/issues"
   },
-  "homepage": "https://github.com/LucasArusiewicz/BotYoutube#readme"
+  "homepage": "https://github.com/LucasArusiewicz/BotYoutube#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
